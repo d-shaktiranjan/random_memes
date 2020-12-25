@@ -4,6 +4,7 @@ from home.meme import getMemeURL
 def index(request):
     url = getMemeURL()
     myDict = {
-        "url" : url,
+        "url" : url[0],
+        "post" : url[1],
         }
     return render(request, 'index.html', myDict)

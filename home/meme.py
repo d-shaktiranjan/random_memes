@@ -9,7 +9,8 @@ def getContent():
 def getMemeURL():
     content = getContent()
     jFile = json.loads(content)
-    return jFile['url']
+    linkList = [jFile['url'], jFile['postLink']]
+    return linkList
         
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@ def getContent():
 def getMemeURL():
     content = getContent()
     jFile = json.loads(content)
-    linkList = [jFile['url'], jFile['postLink']]
+    linkList = [jFile['url'], jFile['postLink'], jFile['author']]
     return linkList
         
 

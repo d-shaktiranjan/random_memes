@@ -6,5 +6,6 @@ def index(request):
     myDict = {
         "url" : url[0],
         "post" : url[1],
+        "author" : url[2],
         }
     return render(request, 'index.html', myDict)

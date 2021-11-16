@@ -1,17 +1,17 @@
 # Random Memes
 
-## (A Django Project)
+## (A Flask Project)
 
 ## Setup
 
-### Install Django:
+### Install Flask:
 ```bash
-pip install Django
+pip install flask
 ```
 
 ## Run Development Server
 
 ```bash
-python manage.py runserver
+python main.py
 ```
-### Public endpoint is at http://127.0.0.1:8000/
+### Public endpoint is at http://127.0.0.1:5000/

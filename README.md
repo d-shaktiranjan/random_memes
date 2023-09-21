@@ -1,7 +1,3 @@
-# Random Memes
-
-## (A Flask Project)
-
 ## Setup
 
 ### Install Flask:
@@ -14,4 +10,3 @@ pip install flask
 ```bash
 python main.py
 ```
-### Public endpoint is at http://127.0.0.1:5000/
